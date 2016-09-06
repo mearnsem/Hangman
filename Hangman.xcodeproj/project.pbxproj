@@ -14,8 +14,6 @@
 		4006F3C21D7CB72A003945AA /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006F3C11D7CB72A003945AA /* HangmanTests.swift */; };
 		4006F3CD1D7CB72A003945AA /* HangmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006F3CC1D7CB72A003945AA /* HangmanUITests.swift */; };
 		4006F3DB1D7CB7FD003945AA /* HangmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006F3DA1D7CB7FD003945AA /* HangmanViewController.swift */; };
-		4006F3DD1D7CB812003945AA /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006F3DC1D7CB812003945AA /* Word.swift */; };
-		4006F3DF1D7CB846003945AA /* WordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4006F3DE1D7CB846003945AA /* WordController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +47,6 @@
 		4006F3CC1D7CB72A003945AA /* HangmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanUITests.swift; sourceTree = "<group>"; };
 		4006F3CE1D7CB72A003945AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4006F3DA1D7CB7FD003945AA /* HangmanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanViewController.swift; sourceTree = "<group>"; };
-		4006F3DC1D7CB812003945AA /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
-		4006F3DE1D7CB846003945AA /* WordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +99,6 @@
 			children = (
 				4006F3AC1D7CB72A003945AA /* AppDelegate.swift */,
 				4006F3B01D7CB72A003945AA /* Main.storyboard */,
-				4006F3DC1D7CB812003945AA /* Word.swift */,
-				4006F3DE1D7CB846003945AA /* WordController.swift */,
 				4006F3DA1D7CB7FD003945AA /* HangmanViewController.swift */,
 				4006F3B31D7CB72A003945AA /* Assets.xcassets */,
 				4006F3B51D7CB72A003945AA /* LaunchScreen.storyboard */,
@@ -264,8 +258,6 @@
 			files = (
 				4006F3AD1D7CB72A003945AA /* AppDelegate.swift in Sources */,
 				4006F3DB1D7CB7FD003945AA /* HangmanViewController.swift in Sources */,
-				4006F3DD1D7CB812003945AA /* Word.swift in Sources */,
-				4006F3DF1D7CB846003945AA /* WordController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +482,7 @@
 				4006F3D31D7CB72B003945AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4006F3D41D7CB72B003945AA /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +491,7 @@
 				4006F3D61D7CB72B003945AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4006F3D71D7CB72B003945AA /* Build configuration list for PBXNativeTarget "HangmanUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +500,7 @@
 				4006F3D91D7CB72B003945AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

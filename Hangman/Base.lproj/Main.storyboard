@@ -29,41 +29,53 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qs0-1R-K7z">
                                 <rect key="frame" x="20" y="270" width="560" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5B-mJ-R3J">
-                                        <rect key="frame" x="0.0" y="0.0" width="560" height="60"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gql-ub-JsH">
+                                        <rect key="frame" x="0.0" y="19" width="560" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="560" id="Fb9-fo-m5u"/>
+                                            <constraint firstAttribute="height" constant="32" id="rRz-L8-lln"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gql-ub-JsH">
-                                        <rect key="frame" x="3" y="19" width="549" height="32"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5B-mJ-R3J">
+                                        <rect key="frame" x="1" y="23" width="559" height="39"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="549" id="Fb9-fo-m5u"/>
-                                            <constraint firstAttribute="height" constant="32" id="rRz-L8-lln"/>
+                                            <constraint firstAttribute="width" constant="559" id="Jzk-2h-PiQ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="gql-ub-JsH" firstAttribute="leading" secondItem="qs0-1R-K7z" secondAttribute="leading" constant="3" id="62N-5c-58X"/>
+                                    <constraint firstItem="gql-ub-JsH" firstAttribute="leading" secondItem="qs0-1R-K7z" secondAttribute="leading" id="62N-5c-58X"/>
                                     <constraint firstAttribute="trailing" secondItem="D5B-mJ-R3J" secondAttribute="trailing" id="Apl-N2-9qU"/>
-                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="centerX" secondItem="gql-ub-JsH" secondAttribute="centerX" constant="2.5" id="Bdt-9c-BQP"/>
-                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="top" secondItem="qs0-1R-K7z" secondAttribute="top" id="fyP-PD-qIH"/>
-                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="firstBaseline" secondItem="gql-ub-JsH" secondAttribute="firstBaseline" id="g4J-au-15u"/>
+                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="centerX" secondItem="gql-ub-JsH" secondAttribute="centerX" id="Bdt-9c-BQP"/>
+                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="top" secondItem="qs0-1R-K7z" secondAttribute="top" constant="23" id="fyP-PD-qIH"/>
+                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="firstBaseline" secondItem="gql-ub-JsH" secondAttribute="firstBaseline" constant="6" id="g4J-au-15u"/>
                                     <constraint firstAttribute="bottom" secondItem="gql-ub-JsH" secondAttribute="bottom" constant="9" id="iBZ-9M-HwL"/>
-                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="leading" secondItem="qs0-1R-K7z" secondAttribute="leading" id="tDl-n0-nVK"/>
+                                    <constraint firstItem="D5B-mJ-R3J" firstAttribute="leading" secondItem="qs0-1R-K7z" secondAttribute="leading" constant="1" id="tDl-n0-nVK"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6B-El-KnJ">
+                                <rect key="frame" x="279" y="111" width="43" height="30"/>
+                                <state key="normal" title="Guess"/>
+                                <connections>
+                                    <action selector="guessButton:" destination="I4X-tk-Ye3" eventType="touchUpInside" id="46q-Xj-XsQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="pJc-26-KDI" firstAttribute="top" secondItem="h4B-sS-9Q1" secondAttribute="bottom" constant="20" id="8gK-hJ-nya"/>
+                            <constraint firstItem="m6B-El-KnJ" firstAttribute="top" secondItem="Gd4-Y9-p7M" secondAttribute="bottom" constant="91" id="ITg-mV-sRQ"/>
                             <constraint firstItem="qs0-1R-K7z" firstAttribute="centerY" secondItem="W3H-at-3jy" secondAttribute="centerY" id="Nyr-Gf-5DQ"/>
                             <constraint firstItem="h4B-sS-9Q1" firstAttribute="leading" secondItem="W3H-at-3jy" secondAttribute="leadingMargin" constant="244" id="WL8-sW-2Ee"/>
                             <constraint firstAttribute="trailingMargin" secondItem="h4B-sS-9Q1" secondAttribute="trailing" constant="244" id="omD-tC-m9S"/>
+                            <constraint firstItem="m6B-El-KnJ" firstAttribute="centerX" secondItem="qs0-1R-K7z" secondAttribute="centerX" id="r7p-06-6ED"/>
                             <constraint firstItem="qs0-1R-K7z" firstAttribute="centerX" secondItem="W3H-at-3jy" secondAttribute="centerX" id="vBc-g1-uzp"/>
                             <constraint firstItem="h4B-sS-9Q1" firstAttribute="centerX" secondItem="W3H-at-3jy" secondAttribute="centerX" id="vx6-WM-IhM"/>
                         </constraints>
